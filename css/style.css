@@ -130,7 +130,7 @@ a {
 }
 
 a:focus, a:hover {
-  color: #2e7eed;
+  color: #005eb8;
   text-decoration: none;
 }
 
@@ -139,7 +139,7 @@ a:focus, a:hover {
 }
 
 .bg-blue {
-  background: #2e7eed;
+  background: #005eb8;
 }
 
 .bg-1 {
@@ -239,7 +239,7 @@ a:focus, a:hover {
 }
 
 .form-control.main:focus {
-  border: 1px solid #2e7eed;
+  border: 1px solid #005eb8;
 }
 
 .form-control::-webkit-input-placeholder {
@@ -292,7 +292,7 @@ a:focus, a:hover {
   padding: 20px 35px;
   font-size: 14px;
   background: #fff;
-  color: #2e7eed;
+  color: #005eb8;
 }
 
 .btn-download span {
@@ -303,7 +303,7 @@ a:focus, a:hover {
 .btn-main {
   padding: 25px 45px;
   border-radius: 3px;
-  background: #2e7eed;
+  background: #005eb8;
   color: #fff;
   outline: none;
 }
@@ -320,7 +320,7 @@ a:focus, a:hover {
 .btn-main-md {
   padding: 17px 38px;
   border-radius: 3px;
-  background: #2e7eed;
+  background: #005eb8;
   color: #fff;
   outline: none;
 }
@@ -337,7 +337,7 @@ a:focus, a:hover {
 .btn-main-sm {
   padding: 15px 35px;
   border-radius: 3px;
-  background: #2e7eed;
+  background: #005eb8;
   color: #fff;
   outline: none;
   font-size: 14px;
@@ -396,7 +396,7 @@ a:focus, a:hover {
 
 .main-nav .navbar-nav .nav-item.active .nav-link:before {
   content: '';
-  background: #2e7eed;
+  background: #005eb8;
   width: 60%;
   height: 4px;
   position: absolute;
@@ -479,7 +479,7 @@ a:focus, a:hover {
   -webkit-transform: translate3d(5px, 0, 0);
           transform: translate3d(5px, 0, 0);
   background: #fff;
-  color: #2e7eed;
+  color: #005eb8;
 }
 
 @media (max-width: 480px) {
