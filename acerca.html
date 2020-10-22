@@ -40,7 +40,7 @@
 <body class="body-wrapper" data-spy="scroll" data-target=".privacy-nav">
 <nav class="navbar main-nav navbar-expand-lg p-0">
   <div class="container">
-    <a class="navbar-brand" href="index.html"><img src="images/logo-iamcest.png" width="70" height="70" alt="IAMCEST"></a>IAMCEST | Digital Health
+    <a class="navbar-brand" href="index.html"><img src="images/logo-iamcest.png" alt="IAMCEST"> IAMCEST | Digital Health </a>
 	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
       aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="ti-menu"></span>
@@ -50,20 +50,25 @@
         <li class="nav-item">
           <a class="nav-link" href="index.html">Inicio</a>   
        </li>
-       <li class="nav-item active">
-          <a class="nav-link" href="acerca.html">Acerca</a>
-        </li>
-	<li class="nav-item">
-	  <a class="nav-link" href="equipo.html">Equipo</a>
-	</li>
-        <li class="nav-item">
-          <a class="nav-link" href="contacto.html">Contacto</a>
-        </li>
-	<li class="nav-item">
-          <a class="nav-link" href="https://id.iamcest.com/auth/realms/iamcest/account"><b>Login / Registro</b></a>
+	<li class="nav-item dropdown dropdown-slide active">
+          <a class="nav-link" href="#" data-toggle="dropdown">Acerca de
+            <span><i class="ti-angle-down"></i></span>
+          </a>
+	<div class="dropdown-menu">
+	<a class="dropdown-item" href="acerca.html">Nosotros</a>
+	<a class="dropdown-item" href="equipo.html">Equipo</a>
+	<a class="dropdown-item" href="blog.html">Novedades</a>
+	<a class="dropdown-item" href="contacto.html">Contaco</a>
         </li>
 	<li class="nav-item dropdown dropdown-slide">
-          <a class="nav-link" href="#" data-toggle="dropdown">Productos
+          <a class="nav-link" href="#" data-toggle="dropdown">Soluciones
+            <span><i class="ti-angle-down"></i></span>
+          </a>
+	<div class="dropdown-menu">
+	<a class="dropdown-item" href="https://sandbox-fhir.iamcest.com">SandBox FHIR</a>
+        </li>
+	<li class="nav-item dropdown dropdown-slide">
+          <a class="nav-link" href="#" data-toggle="dropdown">Apps
             <span><i class="ti-angle-down"></i></span>
           </a>
           <!-- Dropdown list -->
@@ -76,6 +81,9 @@
             <a class="dropdown-item" href="https://dashboard.iamcest.com" target="_blank">Dashboard IAMCEST</a>
             <a class="dropdown-item" href="https://contenidos.iamcest.com" target="_blank">Contenidos App</a>
           </div>
+        </li>
+	 <li class="nav-item">
+          <a class="nav-link" href="https://id.iamcest.com/auth/realms/iamcest/account"><b>Login / Registro</b></a>
         </li>
       </ul>
     </div>
