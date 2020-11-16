@@ -44,7 +44,7 @@ cite {
   font-style: italic;
 }
 .header {
-  background: #122844 url("images/servicios.png") no-repeat 50% 50%;
+  background: url("images/servicios.png") no-repeat 50% 50%;
   background-size: cover;
 }
 
