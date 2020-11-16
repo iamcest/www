@@ -43,6 +43,10 @@ cite {
   font-family: "Lora", serif;
   font-style: italic;
 }
+.header {
+  background: #122844 url("images/servicios.png") no-repeat 50% 50%;
+  background-size: cover;
+}
 
 .form-control::-webkit-input-placeholder {
   color: #808080;
